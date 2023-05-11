@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DBC8AC;
+}
+/*----------------------- Header ------------------------------------------ */
+.headerfondo{
+    background-color: #B73E3E;
+}
+.barraderecha{
+    justify-content: right;
+    margin-right: 2rem;
+}
+.title{
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.itemscolor {
+    color: white;
+}
+/*----------------------- Header ------------------------------------------ */
+/*----------------------- Main ---------------------------------------------*/
+
+/*--------- grillas ---------------------*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+.grid-1 {
+    
+    display: grid;
+    width: 50%;
+    max-width: 800px;
+    margin: 2rem;
+    grid-template-columns: auto 15rem ;
+    grid-template-rows: auto auto ;
+    grid-gap: 5px;
+    justify-content: center;
+
+    grid-template-areas: 
+    "title   title  "
+    "img     txt   ";
+}
+
+.item-1 {
+    background-color: #B73E3E;
+    grid-area: title;
+    
+}
+.item-2 {
+    background: white;
+    grid-area: img;
+   
+}
+.item-3 {
+    background: #B73E3E;
+    grid-area: txt;
+  
+}
+.title1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.foto_amigos{
+    width: 30rem;
+
+}
+.txt1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+@media only screen and (max-width: 990px){
+    .grid-1 {
+        display: grid;
+        width: 50%;
+        margin: 1rem;
+        
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 5px;
+        
+        grid-template-areas:    "title"
+                                "img"
+                                "txt";
+    }  
+}
+.grid-2{
+    display: grid;
+    width: 50%;
+    max-width: 800px;
+    margin: 2rem;
+    grid-template-columns: auto 15rem ;
+    grid-template-rows: auto auto ;
+    grid-gap: 5px;
+    justify-content: center;
+    
+    
+    grid-template-areas: 
+    "title   title  "
+    "img     txt   ";
+}
+.item-4 {
+    background-color: #B73E3E;
+    grid-area: title;
+}
+.item-5 {
+    background: #B73E3E;
+    grid-area: img;
+}
+.item-6 {
+    background: #B73E3E;
+    grid-area: txt;
+}
+.title2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.foto_esquina{
+    width: 30rem;
+}
+.txt2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+@media only screen and (max-width: 990px){
+    .grid-2 {
+        display: grid;
+        width: 50%;
+        margin: 1rem;
+        
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 5px;
+        
+        grid-template-areas:    "title"
+                                "img"
+                                "txt";
+    }
+}
+/*--------- grillas ---------------------*/
+/*---------- fotos ---------------*/
+.contenedor{
+    margin-right: 20rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: none;
+}
+@media only screen and (max-width: 1400px){
+    .contenedor{
+        margin-right: 10rem;
+        margin-left: 10rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    
+    }
+}
+/*---------- fotos ---------------*/
+
+/*----------------------- Main ---------------------------------------------*/
+
+/*-------------footer----------------*/
+footer{
+    background-color: #B73E3E;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    color: #fff;
+    font-size: .8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer section{
+    float: right;
+}
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+    border: 1px  dashed rgb(166, 145, 145);
+    padding: 0.2rem;
+}
+/*------------------ footer ------------------*/
+
+
+/*---------------------Conocenos---------------------------*/ 
+h5{
+    text-align: center;
+    margin: 4rem;
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenedorpadre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: solid 2px white;
+    background-color: #DD5353;
+    margin-bottom: 5rem;
+
+}
+.divs{
+    display: flex;
+    background-color: #B73E3E;
+    margin: 3rem;
+}
+.divs img{
+    width: 15rem;
+}
+.divs p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.divs a{
+    text-decoration: none;
+    color: burlywood;
+}
+@media screen and (max-width: 1460px)  {
+.divs{
+    flex-direction: column;
+    margin: 1rem;
+}
+.contenedorpadre{
+    margin: 1rem;
+}
+.divs img{
+    width: auto;
+}
+    
+}
+@media screen and (max-width: 470px) {
+    h5{
+        font-size: 1.5rem;
+    }
+}
+/*---------------------Conocenos---------------------------*/ 
+/*---------------------reservas ---------------------------*/
+h4{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    color: #fff;
+}
+.txtreserva{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+.contenedor{
+    display: flex;
+    border: white solid 2px;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    background-color: #B73E3E;
+    color: white;
+}
+#RESERVAS{
+    text-align: center;
+    padding: .5rem;
+    text-decoration: underline;
+    margin-bottom: 1.7rem;
+}
+#boton{
+    padding: .3rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+@media screen and (max-width: 900px) {
+    .contenedor{
+    margin: 1rem;
+    }
+    
+}
+/*---------------------reservas ---------------------------*/
+/*---------------------Menu--------------------------------*/
+.menu{
+    font-size: 3rem;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.tabla{
+    width: 30%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+th, td{
+    border: solid 2px antiquewhite;
+    padding: 4px;
+}
+th {
+    background-color: rgb(119, 101, 101);
+    color: white; 
+    text-align: left;  
+}
+tr:nth-child(even){
+    background-color: #c7b3b3;
+}
+tr:hover {
+    background-color: rgb(151, 104, 114); 
+    cursor: pointer;
+}
+
+/*---------------------Menu--------------------------------*/
+/*----------------Ubiacion-----------------------------*/
+.ubi{
+    font-size: 3.5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 2rem;
+}
+.Ubicacion{
+    background-color: #B73E3E;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0  auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 15px;
+}
+.subtitu{
+    text-align: center;
+    padding-top: 1rem;
+    margin: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgubi{
+    width: 80%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: rgb(119, 101, 101) solid 2px;
+}
+.txtubi{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 1485px) {
+    .imgubi{
+        width: 50%;
+    }
+    
+}
+/*----------------Ubiacion-----------------------------*/
