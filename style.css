@@ -3,11 +3,11 @@
     padding: 0;
 }
 body{
-    background-color: #DBC8AC;
+    background-color: #630000;
 }
 /*----------------------- Header ------------------------------------------ */
 .headerfondo{
-    background-color: #B73E3E;
+    background-color: #000000;
 }
 .barraderecha{
     justify-content: right;
@@ -47,19 +47,18 @@ body{
 }
 
 .item-1 {
-    background-color: #B73E3E;
+    background-color: #630000;
     grid-area: title;
-    
+    border:  double 5px white;
 }
 .item-2 {
     background: white;
     grid-area: img;
-   
 }
 .item-3 {
-    background: #B73E3E;
+    background: #630000;
     grid-area: txt;
-  
+    border:  double 5px white;
 }
 .title1{
     text-align: center;
@@ -108,16 +107,18 @@ body{
     "img     txt   ";
 }
 .item-4 {
-    background-color: #B73E3E;
+    background-color: #630000;
     grid-area: title;
+    border:  double 5px white;
 }
 .item-5 {
-    background: #B73E3E;
+    background: #630000;
     grid-area: img;
 }
 .item-6 {
-    background: #B73E3E;
+    background: #630000;
     grid-area: txt;
+    border:  double 5px white;
 }
 .title2{
     text-align: center;
@@ -151,15 +152,17 @@ body{
 }
 /*--------- grillas ---------------------*/
 /*---------- fotos ---------------*/
-.contenedor{
+.carousel{
     margin-right: 20rem;
     margin-left: 20rem;
     margin-top: 5rem;
+    padding: 0 ;
     margin-bottom: 5rem;
-    border: none;
+    border:  double 5px white;
+    background-color: #630000;
 }
 @media only screen and (max-width: 1400px){
-    .contenedor{
+    .carousel{
         margin-right: 10rem;
         margin-left: 10rem;
         margin-top: 3rem;
@@ -173,7 +176,7 @@ body{
 
 /*-------------footer----------------*/
 footer{
-    background-color: #B73E3E;
+    background-color: #000000;
     padding-right: 1rem;
     padding-left: 1rem;
     padding-bottom: .5rem;
@@ -189,8 +192,8 @@ footer a {
     text-decoration: none;
     display: inline-block;
     margin: 1rem;
-    border: 1px  dashed rgb(166, 145, 145);
     padding: 0.2rem;
+    background-color: white;
 }
 /*------------------ footer ------------------*/
 
