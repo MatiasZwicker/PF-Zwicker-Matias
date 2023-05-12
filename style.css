@@ -158,6 +158,12 @@ header a{
                                 "img"
                                 "txt";
     }
+    .foto_amigos{
+        width: 40rem;
+    }
+    .foto_esquina{
+        width: 40rem;
+    }
 }
 /*--------- grillas ---------------------*/
 
