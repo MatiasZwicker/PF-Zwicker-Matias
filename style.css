@@ -201,7 +201,7 @@ footer{
     color: #fff;
     font-size: .8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 3rem;
+
 }
 footer section{
     float: right;
@@ -446,6 +446,9 @@ tr:hover {
     border-radius: 15px;
     border: 3px dashed white;
     
+}
+.sectionubi{
+    margin-bottom: 3rem;
 }
 .subtitu{
     text-align: center;
