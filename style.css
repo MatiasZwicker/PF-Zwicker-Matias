@@ -86,21 +86,6 @@ header a{
     padding: 1rem;
     font-size: 1.6rem;
 }
-@media only screen and (max-width: 990px){
-    .grid-1 {
-        display: grid;
-        width: 50%;
-        margin: 1rem;
-        
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto;
-        grid-gap: 5px;
-        
-        grid-template-areas:    "title"
-                                "img"
-                                "txt";
-    }  
-}
 .grid-2{
     display: grid;
     width: 50%;
@@ -145,10 +130,24 @@ header a{
     padding: 1rem;
     font-size: 1.6rem;
 }
+
 @media only screen and (max-width: 990px){
+    .grid-1 {
+        display: grid;
+        width: 85%;
+        margin: 1rem;
+        
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 5px;
+        
+        grid-template-areas:    "title"
+                                "img"
+                                "txt";
+    }  
     .grid-2 {
         display: grid;
-        width: 50%;
+        width: 85%;
         margin: 1rem;
         
         grid-template-columns: auto auto auto;
