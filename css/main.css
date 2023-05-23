@@ -210,7 +210,6 @@ footer section {
     margin: 60px 100px;
   }
 }
-/* ---- Pagina index ----*/
 /* ---- Pagina Menu ----*/
 .menu {
   font-size: 3rem;
@@ -268,7 +267,6 @@ table tr:hover {
     margin-bottom: 2rem;
   }
 }
-/* ---- Pagina Menu ----*/
 /* ---- Pagina Reservas ----*/
 .titlereserva {
   font-size: 3rem;
@@ -333,7 +331,6 @@ table tr:hover {
     margin: 1.5rem;
   }
 }
-/* ---- Pagina Reservas ----*/
 /* ---- Pagina Nosotros ----*/
 .tituloconocenos {
   font-size: 3rem;
@@ -409,7 +406,6 @@ table tr:hover {
     font-size: 1.5rem;
   }
 }
-/* ---- Pagina Nosotros ----*/
 /* ---- Pagina Ubicacion ----*/
 .ubi {
   font-size: 3rem;
@@ -495,5 +491,3 @@ table tr:hover {
     width: 75%;
   }
 }
-
-/* ---- Pagina Ubicacion ----*/
