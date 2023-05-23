@@ -410,3 +410,90 @@ table tr:hover {
   }
 }
 /* ---- Pagina Nosotros ----*/
+/* ---- Pagina Ubicacion ----*/
+.ubi {
+  font-size: 3rem;
+  color: white;
+  font-family: "Lora", serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4117647059);
+  font-weight: bold;
+}
+
+.Ubicacion {
+  background-color: rgba(0, 0, 0, 0.4117647059);
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 15px;
+  border: 3px dashed white;
+}
+.Ubicacion .subtitu {
+  text-align: center;
+  padding-top: 1rem;
+  margin: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.Ubicacion .imgubi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: white double 5px;
+}
+.Ubicacion .txtubi {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+@media screen and (max-width: 1260px) {
+  .Ubicacion .imgubi {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: 0 auto;
+  }
+  .Ubicacion .txtubi {
+    margin: 0.5rem;
+  }
+  .Ubicacion .Ubicacion {
+    width: 75%;
+  }
+}
+
+.sectionubi {
+  margin-bottom: 3rem;
+}
+.sectionubi .tablaubi {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 5rem;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4117647059);
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .sectionubi .tablaubi {
+    width: 75%;
+  }
+}
+
+/* ---- Pagina Ubicacion ----*/

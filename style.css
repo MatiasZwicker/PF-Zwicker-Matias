@@ -18,71 +18,7 @@
     transition:  0.5s  ;
  }
 /*---------------------Conocenos---------------------------*/ 
-.tituloconocenos{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Lora', serif;
-    margin-top: 0.5rem;
-    margin-bottom: .5rem;
-    padding: 2rem;
-    text-align: center;
-    text-shadow: 5px 5px 5px #00000069;
-    font-weight: bold;
 
-}
-.contenedorpadre{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-}
-.divs{
-    display: flex;
-    background-color: #00000069;
-    margin: 3rem;
-    border-radius: 15px;
-   
-}
-.divs img{
-    width: 15rem;
-    border: solid 5px #00000069;
-}
-.divs p{
-    color: white;
-    font-size: 1.7rem;
-    padding: 1rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-}
-.divs a{
-    text-decoration: none;
-    color: rgb(144, 123, 123);
-}
-.divs a:hover{
-    color: #630000; 
-    cursor: pointer;
-}
-
-@media screen and (max-width: 1210px)  {
-.divs{
-    flex-direction: column;
-    margin: 1rem;
-}
-.contenedorpadre{
-    margin: 1rem;
-}
-.divs img{
-    width: auto;
-}
-}
-@media screen and (max-width: 470px) {
-    h5{
-        font-size: 1.5rem;
-    }
-}
-
-/*---------------------Conocenos---------------------------*/ 
 
 
 /*----------------Ubiacion-----------------------------*/
