@@ -333,3 +333,80 @@ table tr:hover {
     margin: 1.5rem;
   }
 }
+/* ---- Pagina Reservas ----*/
+/* ---- Pagina Nosotros ----*/
+.tituloconocenos {
+  font-size: 3rem;
+  color: white;
+  font-family: "Lora", serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4117647059);
+  font-weight: bold;
+}
+
+.contenedorpadre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+.contenedorpadre .divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4117647059);
+  margin: 3rem;
+  border-radius: 15px;
+}
+.contenedorpadre .divs img {
+  width: 15rem;
+  border: solid 5px rgba(0, 0, 0, 0.4117647059);
+}
+.contenedorpadre .divs p {
+  color: white;
+  font-size: 1.7rem;
+  padding: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+.contenedorpadre .divs a {
+  text-decoration: none;
+  color: rgb(144, 123, 123);
+}
+.contenedorpadre .divs a:hover {
+  color: #630000;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media screen and (max-width: 1210px) {
+  .contenedorpadre .divs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem;
+  }
+  .contenedorpadre .contenedorpadre {
+    margin: 1rem;
+  }
+  .contenedorpadre .divs img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+/* ---- Pagina Nosotros ----*/

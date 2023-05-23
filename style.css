@@ -83,65 +83,7 @@
 }
 
 /*---------------------Conocenos---------------------------*/ 
-/*---------------------reservas ---------------------------*/
-.titlereserva{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Lora', serif;
-    margin-top: 0.5rem;
-    margin-bottom: .5rem;
-    padding: 2rem;
-    text-align: center;
-    text-shadow: 5px 5px 5px #00000069;
-    font-weight: bold;
-}
-.txtreserva{
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    margin: 3rem 10rem 3rem 10rem;
-    background-color: #00000069;
-    padding: 1rem;
-    border: 2px double white;
-}
-.contenedor{
-    display: flex;
-    border: white solid 2px;
-    flex-direction: column;
-    padding: 1rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
-    background-color: #00000069;
-    color: white;
-}
-#RESERVAS{
-    text-align: center;
-    padding: .5rem;
-    border: 4px solid white;
-    margin-bottom: 1.7rem;
-}
-#boton{
-    padding: .3rem;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-}
-@media screen and (max-width: 1200px) {
-    .contenedor{
-    margin: 1.5rem;
-    }
-    
-}
-@media screen and (max-width: 900px) {
-    .txtreserva{
-        font-size: 1rem;
-        margin: 1.5rem;
-    }
-    
-}
-/*---------------------reservas ---------------------------*/
+
 
 /*----------------Ubiacion-----------------------------*/
 .ubi{
