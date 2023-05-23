@@ -67,7 +67,7 @@ footer section {
   float: right;
 }
 
-/* ---- Pagina index ----------*/
+/* ---- Pagina index ----*/
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,4 +210,55 @@ footer section {
     margin: 60px 100px;
   }
 }
-/* ---- Pagina index ----------*/
+/* ---- Pagina index ----*/
+/* ---- Pagina Menu ----*/
+.menu {
+  font-size: 3rem;
+  color: white;
+  font-family: "Lora", serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4117647059);
+  font-weight: bold;
+}
+
+.linea {
+  color: #fff;
+  opacity: 1.5;
+}
+
+.tabla {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4117647059);
+  color: white;
+}
+table th, table td {
+  border: double 4px antiquewhite;
+  padding: 4px;
+}
+table td {
+  padding: 0.5rem;
+}
+table th {
+  background-color: #630000;
+  color: white;
+  text-align: center;
+}
+table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.4117647059);
+}
+table tr:hover {
+  background-color: #630000;
+  cursor: pointer;
+}
+
+/* ---- Pagina Menu ----*/
