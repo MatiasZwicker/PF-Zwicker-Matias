@@ -142,61 +142,7 @@
     
 }
 /*---------------------reservas ---------------------------*/
-/*---------------------Menu--------------------------------*/
-.menu{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Lora', serif;
-    margin-top: 0.5rem;
-    margin-bottom: .5rem;
-    padding: 2rem;
-    text-align: center;
-    text-shadow: 5px 5px 5px #00000069;
-    font-weight: bold;
-}
-.tabla{
-    width: 40%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-}
-table{
-    width: 50%;
-    border-collapse: collapse;
-    margin-bottom: 5rem;
-    margin: 0 auto;
-    background-color: #00000069;
-    color: white;
-}
-th, td{
-    border: double 4px antiquewhite;
-    padding: 4px;
-}
-td{
-    padding: .5rem;
-}
-th {
-    background-color: #630000;
-    color: white; 
-    text-align: center;  
-}
-tr:nth-child(even){
-    background-color: #00000069;
-}
-tr:hover {
-    background-color: #630000; 
-    cursor: pointer;
-}
-@media screen and (max-width: 990px) {
-    .tabla{
-        margin: 0 auto;
-        width: 70%;
-        margin-bottom: 2rem;
-    }
-    
-}
-/*---------------------Menu--------------------------------*/
+
 /*----------------Ubiacion-----------------------------*/
 .ubi{
     font-size: 3rem;

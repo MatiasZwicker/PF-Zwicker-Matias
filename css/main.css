@@ -261,4 +261,75 @@ table tr:hover {
   cursor: pointer;
 }
 
+@media screen and (max-width: 990px) {
+  .tabla {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+}
 /* ---- Pagina Menu ----*/
+/* ---- Pagina Reservas ----*/
+.titlereserva {
+  font-size: 3rem;
+  color: white;
+  font-family: "Lora", serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4117647059);
+  font-weight: bold;
+}
+
+.txtreserva {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin: 3rem 10rem 3rem 10rem;
+  background-color: rgba(0, 0, 0, 0.4117647059);
+  padding: 1rem;
+  border: 2px double white;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: white solid 2px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  background-color: rgba(0, 0, 0, 0.4117647059);
+  color: white;
+}
+.contenedor #RESERVAS {
+  text-align: center;
+  padding: 0.5rem;
+  border: 4px solid white;
+  margin-bottom: 1.7rem;
+}
+.contenedor #boton {
+  padding: 0.3rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .contenedor {
+    margin: 1.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .txtreserva {
+    font-size: 1rem;
+    margin: 1.5rem;
+  }
+}

@@ -43,3 +43,11 @@ table{
         cursor: pointer;
     }
 }
+@media screen and (max-width: 990px) {
+    .tabla{
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+    
+}
