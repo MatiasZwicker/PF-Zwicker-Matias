@@ -1,0 +1,24 @@
+.carousel{
+    margin-right: 20rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    padding: 0 ;
+    margin-bottom: 5rem;
+    border:  double 5px white;
+    background-color: #630000;
+    
+}
+
+@media only screen and (max-width: 1400px){
+    .carousel{
+        margin-right: 10rem;
+        margin-left: 10rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        }    
+}
+@media only screen and (max-width: 1000px){
+    .carousel{
+        margin: 60px 100px;
+    }
+}

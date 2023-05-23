@@ -1,0 +1,213 @@
+body {
+  background-color: #630000;
+}
+
+/*----------------------- Header ------------------------------------------ */
+.headerfondo {
+  background-color: #000000;
+}
+
+.headerfondo a:hover {
+  color: #630000;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header a {
+  font-family: system-ui;
+}
+
+.barraderecha {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 2rem;
+}
+
+.title {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.itemscolor {
+  color: white;
+}
+
+/*----------------------- Header ------------------------------------------ */
+footer {
+  background-color: #000000;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: white;
+  font-family: system-ui;
+  border-radius: 10px;
+}
+footer a:hover {
+  background-color: #630000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+footer section {
+  float: right;
+}
+
+/* ---- Pagina index ----------*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container .grid-1 {
+  display: grid;
+  width: 50%;
+  max-width: 800px;
+  margin: 2rem;
+  grid-template-columns: auto 15rem;
+  grid-template-rows: auto auto;
+  grid-gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-template-areas: "title   title  " "img     txt   ";
+}
+.container .grid-1 .item-1 {
+  background-color: #630000;
+  grid-area: title;
+  border: double 5px white;
+}
+.container .grid-1 .item-1 .title1 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+.container .grid-1 .item-2 {
+  background: white;
+  grid-area: img;
+}
+.container .grid-1 .item-2 .foto_amigos {
+  width: 30rem;
+}
+.container .grid-1 .item-3 {
+  background: #630000;
+  grid-area: txt;
+  border: double 5px white;
+}
+.container .grid-1 .item-3 .txt1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+.container .grid-2 {
+  display: grid;
+  width: 50%;
+  max-width: 800px;
+  margin: 2rem;
+  grid-template-columns: auto 15rem;
+  grid-template-rows: auto auto;
+  grid-gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-template-areas: "title   title  " "img     txt   ";
+}
+.container .grid-2 .item-4 {
+  background-color: #630000;
+  grid-area: title;
+  border: double 5px white;
+}
+.container .grid-2 .item-4 .title2 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+.container .grid-2 .item-5 {
+  background: #630000;
+  grid-area: img;
+}
+.container .grid-2 .item-5 .foto_esquina {
+  width: 30rem;
+}
+.container .grid-2 .item-6 {
+  background: #630000;
+  grid-area: txt;
+  border: double 5px white;
+}
+.container .grid-2 .item-6 .txt2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 990px) {
+  .container .grid-1 {
+    display: grid;
+    width: 85%;
+    margin: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px;
+    grid-template-areas: "title" "img" "txt";
+  }
+  .container .grid-2 {
+    display: grid;
+    width: 85%;
+    margin: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px;
+    grid-template-areas: "title" "img" "txt";
+  }
+  .container .foto_amigos {
+    width: 40rem;
+  }
+  .container .foto_esquina {
+    width: 40rem;
+  }
+}
+
+.carousel {
+  margin-right: 20rem;
+  margin-left: 20rem;
+  margin-top: 5rem;
+  padding: 0;
+  margin-bottom: 5rem;
+  border: double 5px white;
+  background-color: #630000;
+}
+
+@media only screen and (max-width: 1400px) {
+  .carousel {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .carousel {
+    margin: 60px 100px;
+  }
+}
+/* ---- Pagina index ----------*/
