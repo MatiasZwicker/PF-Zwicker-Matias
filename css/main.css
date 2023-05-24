@@ -491,3 +491,7 @@ table tr:hover {
     width: 75%;
   }
 }
+.navbar-toggler-icon {
+  background-color: white;
+  
+}
