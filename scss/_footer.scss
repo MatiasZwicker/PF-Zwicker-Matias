@@ -1,5 +1,5 @@
 footer{
-    background-color: #000000;
+    background-color: white;
     padding-right: 1rem;
     padding-left: 1rem;
     padding-bottom: .5rem;
@@ -21,10 +21,15 @@ footer{
     a:hover {
             background-color: #630000;
             transition:  0.5s  ;
-            
-            
         }
     section{
             float: right;
+
+        .Since {
+        color: #451400;
+        font-family: 'Cedarville Cursive', cursive; 
+        font-size: 1rem ;
+        }
     }
+    
 }
