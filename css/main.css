@@ -32,11 +32,8 @@ body {
   transition: all 1s ease-in-out;
 }
 
-header a {
-  font-family: "Roboto", sans-serif;
-  font-size: xx-large;
-  font-weight: bold;
-  color: #451400;
+.navbar-toggler-icon {
+  background-color: white;
 }
 
 .barraderecha {
@@ -44,10 +41,6 @@ header a {
       -ms-flex-pack: right;
           justify-content: right;
   margin-right: 2rem;
-}
-
-.itemscolor {
-  color: #451400;
 }
 
 header img {
@@ -62,6 +55,13 @@ header img:hover {
           box-shadow: #8e0808 3px 3px 3px;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+header a {
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #451400;
 }
 
 /*----------------------- Header ------------------------------------------ */
@@ -566,7 +566,3 @@ table tr:hover {
   }
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-  
-}
