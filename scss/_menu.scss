@@ -1,4 +1,4 @@
-.menu{
+.menu {
     font-size: 3rem;
     color: white;
     font-family: 'Lora', serif;
@@ -9,45 +9,54 @@
     text-shadow: 5px 5px 5px #00000069;
     font-weight: bold;
 }
-.linea{
+
+.linea {
     color: #fff;
     opacity: 1.5;
-} 
-.tabla{
+}
+
+.tabla {
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
-table{
+
+table {
     width: 50%;
     border-collapse: collapse;
     margin: 0 auto;
     background-color: #00000069;
     color: white;
-    th, td{
+
+    th,
+    td {
         border: double 4px antiquewhite;
         padding: 4px;
     }
-    td{
+
+    td {
         padding: .5rem;
     }
+
     th {
         background-color: #630000;
-        color: white; 
-        text-align: center;  
+        color: white;
+        text-align: center;
     }
-    tr:nth-child(even){
+
+    tr:nth-child(even) {
         background-color: #00000069;
     }
+
     tr:hover {
-        background-color: #630000; 
+        background-color: #630000;
         cursor: pointer;
     }
 }
+
 @media screen and (max-width: 990px) {
-    .tabla{
+    .tabla {
         margin: 0 auto;
         width: 70%;
         margin-bottom: 2rem;
     }
-    
 }

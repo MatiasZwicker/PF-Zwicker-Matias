@@ -28,16 +28,20 @@
 }
 
 .navbar-toggler-icon {
-    background-color: white;
+    background-color: white !important;
 }
-
-
 
 .barraderecha {
     justify-content: right;
     margin-right: 2rem;
 }
 
+header a {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: bold !important;
+    color: #451400;
+}
 
 header img {
     background-color: #451400;
@@ -49,12 +53,6 @@ header img {
 header img:hover {
     box-shadow: #8e0808 3px 3px 3px;
     transition: 1s;
-}
-header a {
-    font-family: 'Roboto', sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
-    color: #451400;
 }
 
 /*----------------------- Header ------------------------------------------ */

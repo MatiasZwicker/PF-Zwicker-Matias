@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-color: white;
+  background-color: white !important;
 }
 
 .barraderecha {
@@ -41,6 +41,13 @@ body {
       -ms-flex-pack: right;
           justify-content: right;
   margin-right: 2rem;
+}
+
+header a {
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: bold !important;
+  color: #451400;
 }
 
 header img {
@@ -55,13 +62,6 @@ header img:hover {
           box-shadow: #8e0808 3px 3px 3px;
   -webkit-transition: 1s;
   transition: 1s;
-}
-
-header a {
-  font-family: "Roboto", sans-serif;
-  font-size: xx-large;
-  font-weight: bold;
-  color: #451400;
 }
 
 /*----------------------- Header ------------------------------------------ */
@@ -266,9 +266,15 @@ footer section .Since {
   background-color: #451400;
   color: white;
   border: solid white 2px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
 .cards .card img {
   border: solid white 2px;
+}
+.cards .card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .cards .card:hover {
   -webkit-box-shadow: 7px 7px 0px rgb(128, 25, 25);
@@ -314,7 +320,8 @@ table {
   background-color: rgba(0, 0, 0, 0.4117647059);
   color: white;
 }
-table th, table td {
+table th,
+table td {
   border: double 4px antiquewhite;
   padding: 4px;
 }
@@ -438,43 +445,51 @@ table tr:hover {
   margin: 3rem;
   border-radius: 15px;
 }
-.contenedorpadre .divs img {
+.contenedorpadre img {
   width: 15rem;
   border: solid 5px rgba(0, 0, 0, 0.4117647059);
 }
-.contenedorpadre .divs p {
+.contenedorpadre p {
   color: white;
   font-size: 1.7rem;
   padding: 1rem;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
 }
-.contenedorpadre .divs a {
+.contenedorpadre a {
   text-decoration: none;
   color: rgb(144, 123, 123);
 }
-.contenedorpadre .divs a:hover {
+.contenedorpadre a:hover {
   color: #630000;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 @media screen and (max-width: 1210px) {
-  .contenedorpadre .divs {
+  .divs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 1rem;
   }
-  .contenedorpadre .contenedorpadre {
+  .contenedorpadre {
     margin: 1rem;
   }
-  .contenedorpadre .divs img {
+  .divs img {
     width: auto;
   }
 }
-
+@media screen and (max-width: 575px) {
+  .contenedorpadre {
+    margin: 0.5rem;
+  }
+  .divs {
+    margin: 0.3rem;
+  }
+}
 @media screen and (max-width: 470px) {
   h5 {
     font-size: 1.5rem;
@@ -565,4 +580,3 @@ table tr:hover {
     width: 75%;
   }
 }
-
